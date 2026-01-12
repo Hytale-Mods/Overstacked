@@ -23,8 +23,10 @@ public class Overstacked extends JavaPlugin {
         this.cfg = this.withConfig("MaxStackSizes", MaxStackSizeConfig.CODEC);
     }
 
+    @Override
     protected void setup() {
         this.getEventRegistry().register(LoadedAssetsEvent.class, Item.class, this::onItemAssetLoad);
+        this.cfg.save();
     }
 
     private void onItemAssetLoad(@Nonnull LoadedAssetsEvent<String, Item, DefaultAssetMap<String, Item>> event) {
