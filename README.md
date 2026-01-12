@@ -19,9 +19,8 @@ The plugin will make the following changes by default.
 
 ## Configuration
 When you run the game for the first time after installing the mod, a `Darkhax_Overstacked` folder will be generated in 
-the mods folder. Inside this folder you will find a `MaxStackSizes.example.json` file, which is both an example and the
-default changes made by the mod. To make your own changes, copy the file and name it `MaxStackSizes.json`. The file can
-be edited with notepad or any other text editor.
+the mods folder. Inside this folder you will find a `MaxStackSizes.json` file, which is both an example and the
+default changes made by the mod. The file can be edited with notepad or any other text editor.
 
 ### ItemIds
 The `ItemIds` section of the config is a direct map of item IDs to new stack sizes. You can increase or decrease the 
