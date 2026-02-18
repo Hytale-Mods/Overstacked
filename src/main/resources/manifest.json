@@ -1,7 +1,7 @@
 {
     "Group": "Darkhax",
     "Name": "Overstacked",
-    "Version": "2026.2.18-5674",
+    "Version": "2026.2.18-85412",
     "Description": "Configure the max stack size of items!",
     "Authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "Website": "https://www.curseforge.com/hytale/mods/overstacked",
-    "ServerVersion": "2026.02.17-255364b8e",
+    "ServerVersion": "2026.02.18-f3b8fff95",
     "Dependencies": {
         
     },
