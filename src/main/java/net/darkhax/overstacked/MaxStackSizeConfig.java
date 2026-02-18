@@ -19,6 +19,8 @@ public class MaxStackSizeConfig {
     protected Map<String, Integer> patterns = new HashMap<>();
 
     public MaxStackSizeConfig() {
+        itemIds.put("Ingredient_Stick", 250);
+        itemIds.put("Ingredient_Charcoal", 250);
         itemIds.put("Ingredient_Crystal_Blue", 150);
         itemIds.put("Ingredient_Crystal_Cyan", 150);
         itemIds.put("Ingredient_Crystal_Green", 150);
